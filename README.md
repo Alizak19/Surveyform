@@ -32,8 +32,28 @@
           <label for="Not sure"><input id="Not sure" type="radio"class="inline" name="Definitely-Maybe-Not sure"/>Not sure<label>
           </fieldset>
           <fieldset>
-            <label>What is your favorite feature of freeCodeCamp?<input /></label>
+            <label>What is your favorite feature of freeCodeCamp?<select>
+            <option value="">Select an option</option>
+            <option value="1">Challenges</option>
+            <option value="2">Projects</option>
+            <option value="3">Community</option>
+            <option value="4">Open Source</option>
+            </select>
+            </label>
+ </fieldset>
+ <fieldset>           <label>What would you like to see improved? (check all that apply)</label>
+            <label for="Front-end"><input id="Front-end" type="checkbox" name="Front-end" class="inline">Front-end Projects</label>
+            <label for="back-end"><input id="Back-end" name="Back-end" type="checkbox" class="inline">Back-end Projects</label>
+            <label for="Data"><input id="Data" name="Data" type="checkbox" class="inline">Data Visualization</label>
+            <label for="Challenges"><input id="Challenges" name="Challenges" type="checkbox" class="inline">Challenges</label>
+            <label for="Open-Sourse"><input id="Open-Sourse" name="Open-Source"type="checkbox" class="inline">Open Source Community</label>
+            <label for="Gitter"><input id="Gitter" name="Gitter" type="checkbox" class="inline">Gitter help rooms</label>
+            <label for="Videos"><input id="Videos" name="Videos" type="checkbox" class="inline">Videos</label>
+            <label for="City-Meetups"><input id="City-Meetups" name="City-Meetups" type="checkbox" class="inline">City Meetups</label>
+            <label for="Wiki"><input id="Wiki" name="Wiki" type="checkbox" class="inline">Wiki</label>
+            <label for="Forum"><input id="Forum" name="Forum" type="checkbox" class="inline">Forum</label>
+            <label for="Courses"><input id="Courses" name="Courses" type="checkbox" class="inline" />Additional Courses</label>
             </fieldset>
         </form>
       </body>
-      </html> 
+      </html>
